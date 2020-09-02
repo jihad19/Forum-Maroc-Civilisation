@@ -44,7 +44,7 @@
    justify-content:right;
    justify-content: space-between;
    margin: 100px;
-   color: green;
+   color: $color-two;
    line-height:70px;
    font-size: 20px;
  
@@ -70,7 +70,7 @@
         padding: 10px; 
         text-align:center; 
         border-radius: 5%;
-        border-color: red;
+        border-color: $color-one;
     } 
 
     #msg{
@@ -80,9 +80,9 @@
         height: 30px;
         width: 100px;
         margin-right: 90px ;
-        background-color: #fff;
-        border-color: red;
+        background-color: $color-four;
+        border-color: $color-one;
         border-radius: 5%;
-        color: green;
+        color:$color-two;
         
     }

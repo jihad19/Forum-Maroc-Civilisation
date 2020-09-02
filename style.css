@@ -50,7 +50,7 @@
   padding: 10px;
   text-align: center;
   border-radius: 5%;
-  border-color: red; }
+  border-color: #bd1818; }
 
 #msg {
   height: 150px; }
@@ -60,6 +60,6 @@ button {
   width: 100px;
   margin-right: 90px;
   background-color: #fff;
-  border-color: red;
+  border-color: #bd1818;
   border-radius: 5%;
   color: green; }
