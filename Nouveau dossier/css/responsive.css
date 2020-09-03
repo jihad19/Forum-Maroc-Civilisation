@@ -1,0 +1,99 @@
+
+@media only screen and (max-width: 1023px){
+
+	.profile-section .image{
+		margin-left:0px;
+	}
+	
+	.profile-section .image img{
+		width:100%;
+		margin-bottom:30px;
+	}
+	
+	.testimonial-section .owl-dots{
+		right:-30px;
+	}
+
+	
+	.profile-section .lower-box .profile-box{
+		margin-left:0px;
+		margin-top:30px;
+	}
+	
+	.header-style-two{
+		position:absolute;
+	}
+
+	.profile-section .upper-box h2{
+		margin-bottom:25px;
+	}
+
+	.portfolio-detail-section .content-column{
+		order:1;
+		margin-bottom:30px;
+	}
+	
+	.portfolio-detail-section .images-column{
+		order:2;
+	}
+
+}
+
+	
+
+	
+
+
+@media only screen and (max-width: 479px) {
+	
+	h1{
+		font-size:30px;
+	}
+	
+	.profile-section .lower-box .profile-box{
+		width:100%;
+		padding:35px 30px;
+	}
+	
+	h3{
+		font-size:24px;
+	}
+	
+	.portfolio-section{
+		padding-top:60px;
+	}
+	
+	.project-block .inner-box .lower-content h2{
+		font-size:24px;
+	}
+	
+	.project-block{
+		margin-bottom:30px;
+	}
+
+	.services-section,
+	.inner-container{
+		padding-top:60px;
+	}
+	
+	
+	
+	.inner-box .lower-content .author-image,
+	.inner-box .lower-content .author-image{
+		display:none;
+	}
+	
+	 .inner-box .lower-content ,
+	 .inner-box .lower-content {
+		padding-left:0px;
+	}
+	
+	
+	
+	
+	
+	.sec-title h2{
+		font-size:28px;
+	}
+	
+}

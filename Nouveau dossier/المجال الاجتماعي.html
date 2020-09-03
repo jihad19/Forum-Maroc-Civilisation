@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar" >
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>المجال الاجتماعي</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,700" rel="stylesheet">
+
+
+ 
+    </head>
+    <body>
+      <header class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-6 col-xs-12">
+              <div class="hero-text">
+                <h1><span>منجزات المنتدى</span></h1>
+             
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="case-study">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h4 class="sub-heading"></h4>
+              <h1 class="heading purple"><span class="purple"></span> : المجال الاجتماعي </h1>
+              <!-- Swiper -->
+              <div class="swiper-container client-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide client-box">
+                    <img src="./assets/cover.jpg" class="client-logo">
+                    <h3 class="text-left title"></h3>
+                    <p class="text-left tag">قفة رمضان، في نسختها الأولى سنة 2015استفادت 63 أسرة 
+                      لتستفيد منها أكثر من 250 أسرة في النسخة السادسة</p>
+                    
+                  </div>
+                  <div class="swiper-slide client-box">
+                    <img src="./assets/cover.jpg" class="client-logo">
+                    <h3 class="text-left title"></h3>
+                    <p class="text-left tag">يقدم منتدى مغرب الحضارة أضعية العيد لعدد من الأسر كل 
+                      موسم</p>
+               
+                  </div>
+                  <div class="swiper-slide client-box">
+                    <img src="./assets/cover.jpg" class="client-logo">
+                    <h3 class="text-left title"></h3>
+                    <p class="text-left tag">تكفل المنتدى بكسوة عيد عدد من الصغار خلال موسمين 
+                      (2015-2016)</p>
+                
+                  </div>
+                  <div class="swiper-slide client-box">
+                    <img src="./assets/cover.jpg" class="client-logo">
+                    <h3 class="text-left title"></h3>
+                    <p class="text-left tag">تفريش مسجد النساء وشراء أغطية و أفرشة للطلبة الداخليين 
+                      بمسجد دوار العكورا جماعة أولاد زيد بإقليم آسفي</p>
+              
+                  </div>
+                  <div class="swiper-slide client-box">
+                    <img src="./assets/cover.jpg" class="client-logo">
+                    <h3 class="text-left title"></h3>
+                    <p class="text-left tag">كفالة حالات اجتماعية من ذلك: إعانة شهرية لشيخ كبير مريض
+                      الإشراف على دواء العينين لطفلة، شراء نظارات لطفلة معوزة</p>
+                 
+                  </div>
+                </div>
+                
+              </div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
+
+      <!-- Some Javascript -->
+      <script src="js/jquery-2.1.1.js"></script>
+      <script src="js/swiper.jquery.min.js"></script>
+      <!-- Initialize Client Swiper -->
+      <script>
+      var swiper1 = new Swiper('.client-swiper', {
+        slidesPerView: 3,
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 60,
+        // Responsive breakpoints
+        breakpoints: {
+          // when window width is <= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: '.swiper-pagination'
+          },
+          // when window width is <= 480px
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 20
+          },
+          // when window width is <= 640px
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 30
+          }
+        }
+      });
+     
+    
+     
+
+      
+      </script>
+
+     
+
+      </script>
+    </body>
+    </html>

@@ -1,0 +1,255 @@
+
+
+ body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  color: #222;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+}
+p{color: #222 !important;
+text-align: center !important;}
+
+section {
+  width: 100%;
+}
+
+
+img {
+  max-width: 100%;
+}
+.purple {
+  color: #125833;
+}
+.pink {
+  color: #ff2a75;
+}
+.blue {
+  color:black;
+}
+
+/* Hero Section */
+header.hero {
+  background: url(../assets/hero.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 80px;
+}
+
+header.hero .hero-text {
+  margin-top: 20%;
+  margin-bottom: 20%;
+  color: #B1131A;
+  text-align: center;
+}
+header.hero .row {
+  position: relative;
+}
+header.hero h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4.5em;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+header.hero h1 span,
+header.hero h3 {
+  font-weight: 300;
+}
+
+
+
+
+
+/* Case study */
+.case-study .col-md-12 {
+  transform: translateY(-80px);
+  -webkit-transform: translateY(-80px);
+  padding: 5em 3em;
+  background-color: #fff;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.15);
+}
+h4.sub-heading {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #4e4c58;
+  text-align: center;
+  
+}
+h1.heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #4e4c58;
+  font-size: 3em;
+  position: relative;
+  padding-bottom: 10px;
+  text-align: center;
+}
+h1.heading span {
+  font-weight: 600;
+  text-align: center;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  padding: 4em 1em;
+}
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+}
+
+.client-box {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+  padding: 3.5em 2em;
+  border-radius: 5px;
+  border: 1px solid #B1131A;
+  text-align: center;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.client-box .client-logo {
+  max-height: 120px;
+}
+.client-box h3.title {
+  color: #4e4c58;
+  margin-bottom: 2em;
+}
+.client-box p.tag {
+  color: #7447ae;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1em;
+}
+.client-box a {
+  color: #333;
+  font-style: italic;
+  opacity: 0.5;
+}
+.client-box.swiper-slide-next {
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari */
+  transform: scale(1.15);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+.swiper-button-next, .swiper-button-prev {
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+  border-radius: 5em;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  background-image: url(../assets/arrow-right.png);
+  right: -40px;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  background-image: url(../assets/arrow-left.png);
+  left: -40px;
+}
+
+
+
+
+
+/* Let's optimise it for mobile devices */
+
+@media (max-width: 720px){
+  .btn-lg {
+    padding: .8em 3em;
+    font-size: .8em;
+  }
+  h1.heading {
+    font-size: 2em;
+  }
+  header.hero {
+    text-align: center;
+    padding-bottom: 0;
+  }
+  header.hero h1 {
+    font-size: 2em;
+    margin-top: 1.5em;
+  }
+  header.hero h3 {
+    font-size: 1.2em;
+    line-height: 1.6em;
+  }
+  ul.social-links li.label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 1em;
+  }
+  ul.social-links li a {
+    opacity: 1;
+  }
+  .testimonial {
+    padding-top: 3rem;
+  }
+  .case-study .col-md-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .case-study .col-md-12 {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+  }
+
+  /*Swiper classes*/
+  .client-box.swiper-slide-next {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    box-shadow: none;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+  .swiper-container {
+    padding: 4em 0em;
+  }
+  .client-box {
+    padding: 1em;
+    text-align: center;
+  }
+  .stat-box {
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .stat-box h1 {
+    font-size: 3.6em;
+  }
+  .stat-box h3 {
+    font-size: 1.4em;
+  }
+  .contact-banner {
+    padding: 2em;
+  }
+  .contact-banner h1 {
+    font-size: 2em;
+  }
+  .footer {
+    padding: 1em 0em;
+  }
+}
+
+
+
+
+
+
