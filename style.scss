@@ -10,7 +10,7 @@
 .sd2{
     position: absolute;
     content: '';
-    width: 20%;/*71*/
+    width: 20%;
     height:14%;
     top: 70px;
     left:30%;
@@ -85,4 +85,12 @@
         border-radius: 5%;
         color:$color-two;
         
+    }
+
+    
+@media (max-width: 1024px) {
+    .image {
+        float:right;
+        margin-bottom: 20px;
+    }
     }

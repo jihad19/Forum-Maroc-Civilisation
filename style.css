@@ -6,7 +6,6 @@
   position: absolute;
   content: '';
   width: 20%;
-  /*71*/
   height: 14%;
   top: 70px;
   left: 30%;
@@ -63,3 +62,8 @@ button {
   border-color: #bd1818;
   border-radius: 5%;
   color: green; }
+
+@media (max-width: 1024px) {
+  .image {
+    float: right;
+    margin-bottom: 20px; } }
