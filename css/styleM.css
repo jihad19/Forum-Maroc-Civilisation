@@ -1,0 +1,215 @@
+* {
+	font-family: 'Cairo', sans-serif;
+}
+
+body {
+	min-width: 350px;
+}
+.HeaderMmd {
+	position: relative;
+	background-color: #c3974c07;
+	background-image: url('../images/header-motamayizah-2.svg');
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-size: 6em;
+	border-bottom: 4px solid #c3974c;
+	z-index: 1;
+}
+
+/* -------------- Header MD ---------------*/
+.logoMd img {
+	width: 12em;
+	z-index: 1;
+}
+.HeaderMmd .backMd {
+	position: absolute;
+	width: 16em;
+	z-index: 12;
+	top: 0;
+	left: 0;
+}
+.TitreM .p1 {
+	font-family: 'El Messiri', sans-serif;
+	font-size: 2.5em;
+	color: #c3974c;
+}
+.TitreM .p2 {
+	font-size: 1.5em;
+	color: #2a2541;
+}
+
+.singMd {
+	border-bottom: 2px solid #2a2541;
+	text-decoration: none;
+	font-size: 1em;
+	color: #c3974c;
+}
+
+.singMd:hover {
+	text-decoration: none;
+	color: #2a2541;
+	border-bottom: 2px solid #c3974c;
+}
+.ulM li {
+	display: flex;
+	text-decoration: none;
+}
+.ulM li a {
+	margin: 4px;
+}
+.ulSM li {
+	display: flex;
+	text-decoration: none;
+	justify-content: center;
+}
+.ulSM li a {
+	margin: 4px;
+}
+/* -------------- Header SM ---------------*/
+
+.logoSM img {
+	width: 13em;
+}
+
+.TitreS .p3 {
+	font-family: 'El Messiri', sans-serif;
+	font-size: 2em;
+	color: #c3974c;
+}
+
+/*--------------------------------------------- Content MD -------------------------------------------------*/
+.backContent {
+	background-image: url('../images/back-motamayizah.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.nawadi {
+	position: absolute;
+	top: 3.3em;
+	background-image: url('../images/zeeze.jpg');
+	background-position: 49em -8em;
+	transform: skewX(15deg);
+	border-radius: 1em;
+	box-shadow: 3px 3px #2a2541 inset, -6px -6px #c3974c inset;
+}
+.nawadi .PNM {
+	font-family: 'El Messiri', sans-serif;
+	font-size: 2.5em;
+}
+
+.R {
+	transform: skewX(10deg);
+}
+.L {
+	transform: skewX(-10deg);
+}
+.TitreMC .p1 {
+	text-align: center;
+	font-family: 'El Messiri', sans-serif;
+	font-size: 2em;
+	color: #2a2541;
+	background-color: #c3974c73;
+}
+
+.TitreMC .p2 {
+	font-size: 1.5em;
+	color: #2a2541;
+}
+
+.TitreMC .p2t {
+	font-size: 1.64em;
+	color: #2a2541;
+}
+
+.singMdC {
+	background-color: #2a2541;
+	text-decoration: none;
+	font-size: 1em;
+	color: white;
+}
+.singMdC:hover {
+	background-color: #c3974c73;
+	text-decoration: none;
+	color: #2a2541;
+}
+/*--------------------------------------------- Content Sm -------------------------------------------------*/
+.TitreSC .p3 {
+	font-family: 'El Messiri', sans-serif;
+	font-size: 2em;
+	color: #2a2541;
+	background-color: #c3974c73;
+}
+.TitreM .p2 {
+	font-size: 1.5em;
+	color: #2a2541;
+}
+
+/*--------------------------------------------- Footer -------------------------------------------------*/
+
+.footer {
+	border-top: 4px solid #c3974c;
+	background-color: #c3974c07;
+}
+
+.nav2 {
+	background-color: #c3974c25;
+}
+
+.nav2 a {
+	font-size: 1.3em;
+	color: #2a2541;
+}
+.ul2 li {
+	border-left: 2px solid #c3974c;
+}
+.ul2 li:last-child {
+	border-left: none;
+}
+
+.ul3 {
+	font-size: 0.7em;
+}
+.ul3 li {
+	border-left: 2px solid #c3974c;
+}
+
+.ul3 li:last-child {
+	border-left: none;
+}
+
+.all {
+	padding: 0px;
+	font-size: 1.2em;
+}
+
+.p11 {
+	background-image: url('../images/home-motamayizah.svg');
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: 1.5em;
+	padding-right: 40px;
+}
+
+.p22 {
+	background-image: url('../images/mailbox-motamayizah.svg');
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: 1.5em;
+	padding-right: 40px;
+}
+
+.p33 {
+	background-image: url('../images/phone-motamayizah.svg');
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: 1.5em;
+	padding-right: 40px;
+}
+.address1 {
+	height: 10em;
+	width: 23em;
+	background-image: url('../images/undraw_delivery_address_Forum_Maroc_civilisation\(2\).svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
